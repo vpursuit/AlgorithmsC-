@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FF8333B181D6EF500AD4843"
-               BuildableName = "Homework1"
+               BuildableName = "AlgorithmsCplusPlus"
                BlueprintName = "AlgorithmsCplusPlus"
                ReferencedContainer = "container:AlgorithmsCplusPlus.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7FF38529182B7B9A00E6987E"
-               BuildableName = "Homework1 Tests.xctest"
+               BuildableName = "AlgorithmsCplusPlus Tests.xctest"
                BlueprintName = "AlgorithmsCplusPlus Tests"
                ReferencedContainer = "container:AlgorithmsCplusPlus.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FF8333B181D6EF500AD4843"
-            BuildableName = "Homework1"
+            BuildableName = "AlgorithmsCplusPlus"
             BlueprintName = "AlgorithmsCplusPlus"
             ReferencedContainer = "container:AlgorithmsCplusPlus.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FF8333B181D6EF500AD4843"
-            BuildableName = "Homework1"
+            BuildableName = "AlgorithmsCplusPlus"
             BlueprintName = "AlgorithmsCplusPlus"
             ReferencedContainer = "container:AlgorithmsCplusPlus.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7FF8333B181D6EF500AD4843"
-            BuildableName = "Homework1"
+            BuildableName = "AlgorithmsCplusPlus"
             BlueprintName = "AlgorithmsCplusPlus"
             ReferencedContainer = "container:AlgorithmsCplusPlus.xcodeproj">
          </BuildableReference>
