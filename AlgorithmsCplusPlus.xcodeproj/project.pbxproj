@@ -21,7 +21,7 @@
 		7FF38533182B7B9A00E6987E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF38531182B7B9A00E6987E /* InfoPlist.strings */; };
 		7FF3854D182D187700E6987E /* PQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FF3854C182D187700E6987E /* PQueue.mm */; };
 		7FF83340181D6EF500AD4843 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8333F181D6EF500AD4843 /* main.cpp */; };
-		7FF83342181D6EF500AD4843 /* Homework1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FF83341181D6EF500AD4843 /* Homework1.1 */; };
+		7FF83342181D6EF500AD4843 /* Graphs1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FF83341181D6EF500AD4843 /* Graphs1.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +41,14 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				7FF83342181D6EF500AD4843 /* Homework1.1 in CopyFiles */,
+				7FF83342181D6EF500AD4843 /* Graphs1.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7F34DF20182ECD38002E41C1 /* TestPQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPQueue.m; path = "Homework1 Tests/TestPQueue.m"; sourceTree = SOURCE_ROOT; };
+		7F34DF20182ECD38002E41C1 /* TestPQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestPQueue.m; path = GraphsTests/TestPQueue.m; sourceTree = SOURCE_ROOT; };
 		7F38FB671824ED1A00C27B91 /* Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
 		7F38FB681824ED1A00C27B91 /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		7F38FB6D182507B700C27B91 /* ShortestPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestPath.cpp; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		7F38FB7118264B3900C27B91 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
 		7F5CE76718392098006140C0 /* UF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UF.cpp; sourceTree = "<group>"; };
 		7F5CE76818392098006140C0 /* UF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UF.h; sourceTree = "<group>"; };
-		7FB0AC9D182F8FB500627B8D /* test_graph0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_graph0.txt; path = "Homework1 Tests/test_graph0.txt"; sourceTree = SOURCE_ROOT; };
+		7FB0AC9D182F8FB500627B8D /* test_graph0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test_graph0.txt; path = GraphsTests/test_graph0.txt; sourceTree = SOURCE_ROOT; };
 		7FB0AC9E182FDCC800627B8D /* MST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MST.cpp; sourceTree = "<group>"; };
 		7FB0AC9F182FDCC800627B8D /* MST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MST.h; sourceTree = "<group>"; };
 		7FB0ACA11838BC6B00627B8D /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		7FF3854C182D187700E6987E /* PQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PQueue.mm; path = wrapper/PQueue.mm; sourceTree = "<group>"; };
 		7FF8333C181D6EF500AD4843 /* AlgorithmsCplusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsCplusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF8333F181D6EF500AD4843 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7FF83341181D6EF500AD4843 /* Homework1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Homework1.1; sourceTree = "<group>"; };
+		7FF83341181D6EF500AD4843 /* Graphs1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Graphs1.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +104,7 @@
 				7FB0AC9D182F8FB500627B8D /* test_graph0.txt */,
 			);
 			name = Test;
+			path = ../GraphsTests;
 			sourceTree = "<group>";
 		};
 		7FF3852B182B7B9A00E6987E /* Frameworks */ = {
@@ -114,12 +115,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FF3852E182B7B9A00E6987E /* Homework1 Tests */ = {
+		7FF3852E182B7B9A00E6987E /* Graphs Tests */ = {
 			isa = PBXGroup;
 			children = (
 				7FF3852F182B7B9A00E6987E /* Supporting Files */,
 			);
-			path = "Homework1 Tests";
+			name = "Graphs Tests";
+			path = GraphsTests;
 			sourceTree = "<group>";
 		};
 		7FF3852F182B7B9A00E6987E /* Supporting Files */ = {
@@ -144,8 +146,8 @@
 		7FF83333181D6EF500AD4843 = {
 			isa = PBXGroup;
 			children = (
-				7FF8333E181D6EF500AD4843 /* Homework1 */,
-				7FF3852E182B7B9A00E6987E /* Homework1 Tests */,
+				7FF8333E181D6EF500AD4843 /* Graphs */,
+				7FF3852E182B7B9A00E6987E /* Graphs Tests */,
 				7FF3852B182B7B9A00E6987E /* Frameworks */,
 				7FF8333D181D6EF500AD4843 /* Products */,
 			);
@@ -160,13 +162,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FF8333E181D6EF500AD4843 /* Homework1 */ = {
+		7FF8333E181D6EF500AD4843 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
 				7F7F1A74182EC5BF0029ABB8 /* Test */,
 				7FF38541182D155200E6987E /* wrapper */,
 				7FF8333F181D6EF500AD4843 /* main.cpp */,
-				7FF83341181D6EF500AD4843 /* Homework1.1 */,
+				7FF83341181D6EF500AD4843 /* Graphs1.1 */,
 				7F38FB671824ED1A00C27B91 /* Graph.cpp */,
 				7F38FB681824ED1A00C27B91 /* Graph.h */,
 				7F38FB6D182507B700C27B91 /* ShortestPath.cpp */,
@@ -184,7 +186,7 @@
 				7F5CE76718392098006140C0 /* UF.cpp */,
 				7F5CE76818392098006140C0 /* UF.h */,
 			);
-			path = Homework1;
+			path = Graphs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,12 +327,12 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Homework1 Tests/AlgorithmsCplusPlus Tests-Prefix.pch";
+				GCC_PREFIX_HEADER = "GraphsTests/AlgorithmsCplusPlus Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Homework1 Tests/AlgorithmsCplusPlus Tests-Info.plist";
+				INFOPLIST_FILE = "GraphsTests/AlgorithmsCplusPlus Tests-Info.plist";
 				PRODUCT_NAME = "AlgorithmsCplusPlus Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -344,8 +346,8 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Homework1 Tests/AlgorithmsCplusPlus Tests-Prefix.pch";
-				INFOPLIST_FILE = "Homework1 Tests/AlgorithmsCplusPlus Tests-Info.plist";
+				GCC_PREFIX_HEADER = "GraphsTests/AlgorithmsCplusPlus Tests-Prefix.pch";
+				INFOPLIST_FILE = "GraphsTests/AlgorithmsCplusPlus Tests-Info.plist";
 				PRODUCT_NAME = "AlgorithmsCplusPlus Tests";
 				WRAPPER_EXTENSION = xctest;
 			};
