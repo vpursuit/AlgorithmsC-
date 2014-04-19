@@ -73,7 +73,7 @@ int main(int argc, const char * argv[])
     
     //cout << "Current working directory is: " << getcwd() << endl;
 
-    Graph *g = Graph::createFromFile("/Users/keeper/Documents/hidrive/coursera/C++ForCProgrammers/AlgorithmsCPlusPlus/GraphTests/test_graph0.txt");
+    Graph *g = Graph::createFromFile("/Users/keeper/git/algorithmscplusplus/GraphsTests/test_graph0.txt");
  
     cout << "Read graph from file, size: " << g->V() << endl;
     
